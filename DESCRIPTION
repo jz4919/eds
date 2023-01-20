@@ -1,0 +1,22 @@
+Package: eds
+Title: Helper Functions for Effective Data Science 2022-23
+Version: 0.0.0.9000
+Authors@R: 
+    person(
+    given = "Jiexiu",
+    family = "Zhu",
+    email = "jz4919@ic.ac.uk",
+    role = c("aut", "cre"))
+Description: A minimal example R package created during the first lives session 
+    of Effective Data Science 2022-23. This countains a simple function to 
+    calculate a moving average.
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
+Imports: 
+    magrittr,
+    stats
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
