@@ -6,15 +6,15 @@
 <!-- badges: start -->
 <!-- badges: end -->
 
-The goal of eds is to demonstrate how to create R packages with certain
-functions.
+The goal of eds is to demonstrate how to create R packages, write and install functions, and also how to write test functions.
 
 ## Installation
 
-You can install the development version of eds like so:
+You can install the development version of regexcite from [GitHub](https://github.com/) with:
 
 ``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
+# install.packages("devtools")
+devtools::install_github("jz4919/eds")
 ```
 
 ## Example
